@@ -1,0 +1,97 @@
+const projects = {
+  "pop-club": {
+    index: "01 / 05", title: "MOCHI MONSTERS", logo: "mochi-monsters", type: ["Licence de personnages + e-commerce", "Character franchise + e-commerce"],
+    lead: ["Une famille de mascottes qui transforme les émotions du quotidien en personnages, collections et objets à adopter.", "A family of mascots turning everyday emotions into characters, collections and objects to collect."],
+    role: ["Direction artistique, design, frontend", "Art direction, design, frontend"], scope: ["Identité, personnage, packaging, site", "Identity, character, packaging, website"],
+    challenge: ["Construire une licence capable de grandir personnage après personnage.", "Building a franchise designed to grow one character at a time."],
+    context: ["Mochi Monsters donne une forme attachante aux émotions du quotidien. Chaque mascotte possède un tempérament, une expression et une mini-collection. Le système devait rester cohérent du sticker au packaging, puis devenir une boutique où l’on découvre les personnages avant les produits.", "Mochi Monsters gives an endearing shape to everyday emotions. Each mascot has a personality, expression and mini collection. The system had to remain consistent from stickers to packaging, then become a shop where people discover characters before products."],
+    system: ["Des formes épaisses, des réactions exagérées et une palette primaire construisent un langage immédiatement lisible. Chaque saveur déclenche une nouvelle expression de la mascotte.", "Heavy shapes, exaggerated reactions and a primary palette create an instantly readable language. Every flavour triggers a new mascot expression."],
+    quote: ["Le produit change. La personnalité reste.", "The product changes. The personality stays."], detail: ["Les oreilles forment discrètement la lettre P lorsqu’elles sont vues en silhouette. Ce geste permet au personnage de signer les petits formats sans ajouter le logotype complet.", "Seen in silhouette, the ears quietly form the letter P. This lets the character sign small formats without adding the full wordmark."],
+    colors: ["#f8d64e","#f2a7c6","#f05b48","#21205c"], words: ["MOCHI!", "FEEL IT / SQUISH IT"], next: "motif",
+    refs: ["xKPIlD2kqLcEuCt9pTG2biQf13qwVLO7W2ukri-au7gxq5h-0rfMaXLWfn30jrAcmvyFScXBSQHe6F59kFPQDb5ChstX6GIOHEIU0GxU51AXooE2TLECzXYcRkyhPoaFy6jgkvhLIhPsnvoqA2HV4cX3iDG4flOa2BYl3NCK2nuAoHwsxN0lL3ko4rV3Hl3W","3NH2qmWGiIPOGVbKHlnkRPWmhNUW5vO5MdR48EKAMmRMoTcCxNddq4pNLwqMmMrYadWIs_N_OSvyOFcGmpiq14Giv77-3U80WZd2Inaj2pZDD5sth-B0laRaQKoSo0hzm6Z8EP3ePLpMxSvTcpGhHonAFX-RmGtzkyceVyOsW1YnylKhz1loKeFhXjcPL8SL","WE1XB_yHJEJ0EPrioogsR_7mSmq59MMRY9p-pWUiEkMnoyzY5Q0mF_j62xz6ltKDWCcZrSXEwinhuXeLh3zvjtFwKswtFT6coItkc7GusnTTy7bGQJHoy_fxbHu5Keeq2DACEOgBDMBUzdO3kqFZviI3AoWCS1uUijyuiQgJ0KuVyOIWyF3OAQAqeZQVHZQT","5LO-SQVuOEIkITxjInnROHD7tVLKjGtRAT7gJeN0cM7YGChK6hUOqkrHWyipOWx2vUw5n_O73bXgnM0JIoto24plq36ZpZNA5u2rq1PNXIJ5Qu_mB-D8-Y5Jl-btN0PySueWmOhK1HBLRuqQKGC3ZOsqJVHrEzRqUpLJxsZ0HHiM_rl5RkWoK57xlVVUmjzw","VAAAlLzdbzLbtHMzBSvvChQx3rrkaRfXHtXHUjnskuV36O8T38h3cdynYx-MvrQdCHq0DjGfmCo-Zrb-wSBjVopDfb1w8DQHOpVENmCNRWHf2jTE4-WCm0DF0xZwSxE9EJsxnTlGknJiWXQ1toiwyfTomiveodIaOmERZgCa1WW2-35ILp6LzdVzT4e-Yiw0","pV3LdFZnMyEnjO9cxZhI0VoFYZdlZXFAkv-OJWZ42vnBFXXQEWibQmBYKxjQ7PrewK9Jos5HFUt1BLGQ5VFicu6-K0WAzLjwHrJwkVQ2oFm_L6ObXrCxxJssFehFcnobas1GLV9fyfo_o-qYjeE3DT7Hzg0wlRCCdf1M4M1aFr_O_qubrXW-f_HLHlFk0LUd","zYA5DPgGMFDsehENzeR1P8vyzhYOTMBhXsp2DNWDMlo7N0hCWd_nowR7N78QG50e72oILW_baMBqNEjV1OW13jBWub5oo1MN8z87-GH-Nzae2oqRt7F1jo8MGEuG17i_JxOobe55D3uSf8DemctY9qg7oPrZGi_RoKxdXzY-zY2GWF4UiDJMbbZ0F0Ze7xgr"]
+  },
+  motif: {
+    index: "02 / 05", title: "DAILY SPARKS", logo: "daily-sparks", type: ["Identité Instagram + direction de contenu", "Instagram identity + content direction"],
+    lead: ["Une page de citations qui remplace le bruit motivationnel par des mots précis et un rythme calme.", "A quote page that replaces motivational noise with precise words and a calmer rhythm."],
+    role: ["Identité, templates, stratégie éditoriale", "Identity, templates, editorial strategy"], scope: ["Logo, grille sociale, motion rules", "Logo, social grid, motion rules"],
+    challenge: ["Donner une voix reconnaissable à des mots empruntés.", "Giving borrowed words a recognizable voice."],
+    context: ["Daily Sparks est une page de citations, mindset et entrepreneuriat destinée aux jeunes créateurs. Face aux contenus motivationnels interchangeables, la marque adopte un ton premium, calme et direct. La grille alterne affirmations, questions et carrousels pratiques sans perdre sa cohérence.", "Daily Sparks is a quotes, mindset and entrepreneurship page for young creators. Against interchangeable motivational content, the brand uses a premium, calm and direct voice. Its grid alternates affirmations, questions and practical carousels without losing consistency."],
+    system: ["Le guillemet devient cadre, fenêtre ou mouvement. Une grille de trois températures distingue l’introspection, l’élan et les conversations avec la communauté.", "The quotation mark becomes a frame, window or motion. A three-temperature grid separates introspection, momentum and community conversations."],
+    quote: ["Moins de slogans. Plus de phrases que l’on garde.", "Fewer slogans. More words worth keeping."], detail: ["Le M du monogramme est composé de deux guillemets face à face: la voix de l’auteur et celle du lecteur se rencontrent au centre.", "The M monogram is made from two quotation marks facing each other: the author’s voice and the reader’s meet in the middle."],
+    colors: ["#171513","#eee8dc","#c8a96b","#f7f4ee"], words: ["✦", "A SPARK EVERY DAY"], next: "cafe-ora",
+    refs: ["71B_F1cBH4GCSx1LcOQl7LrSpYpEwFZ1w4VjEs21BtKrVvH9ouZF684--wWmGGFD7sEjbf32lyGolKIhtqanvpEyG9jmroxLp6Cr5-3bJtVI9XEbrhiwWWaGzksV8EtZdtkNPsK48kWtnfoM659kkJT8ZWN_wyq9LTPLzPdLLyvkva3anvk9_ozcKpOQPic8","mIvp3TWQt6HrJ-o5dxcG40tE4B0jD_8kR5yEc2RHEcB7WNorSmRPQImyWwkjcdllDmOi4tru2rod7Bpthbs0NB2-1YaHuR_Io0946z_6oXV7ou4vj2XctaxgeK933JCZEmY7Hbdyb_ImdA8ieAa6bY-afYFtdGCp0tPOPjyapRuhopInm9fpE1OFnWoVb0WJ","qNW20Aw4L_cwS7CdvXXRYrQR9m5UDyf6gSrj08exkhDvoHDXtxMzQiUtFxyzxXlYVD3LuU3iS5rWFbfYeb5uLEmeOztv6wPwJF8-mCzMuFc7IGTJ7DlYQntk61wz-n1Agf2fcI6PgaJE3DutGv2XVsooXEtyqmSub7GDDZN8D0OXQ5NZM99RWcvD7GhlYWn4","ov7AA_bFQW3ewqGB1dvZ-VYr8IUfuGpTLClWem-BZcDPPzkAmCUjHsaadw5b_s75UQztp4Rx06uybw178JBVCUA_1xlHMfvBuwvMW9owiMyBXBUe_NW-B0k3zOQCHJz5LwOC5tE-3-bSc82taAWMkoXAsOff5V7VeL-aN_k3b7PVUbPdhWPqFdfnmjuheqJS","4TV69n2sOfINYBMyy-zxniX85jwDX1AuWqwfSXkzifq1zYkjr6Mcc-Mp7dBOk-obS01MCJPzj2wcyRQo-nmp7gWAjXOk0l5jaVjNozmtRiUs_BTDl6zNppIrNdo_QMcPkwURGNaMRFQ4GGJWCrurrIw5c6ryNV_DqWT9KV2Dmhtj2DDGHgmfWiXrXbZUGNJs"]
+  },
+  "cafe-ora": {
+    index: "03 / 05", title: "LUMA COFFEE", logo: "luma-coffee", type: ["Coffee shop + identité de marque", "Coffee shop + brand identity"],
+    lead: ["Un café de quartier inspiré par l’heure dorée et les matins que l’on refuse de presser.", "A neighbourhood café inspired by golden hour and mornings that refuse to be rushed."],
+    role: ["Stratégie, identité, packaging", "Strategy, identity, packaging"], scope: ["Logo, menu, vaisselle, signalétique", "Logo, menu, tableware, signage"],
+    challenge: ["Créer de la chaleur sans tomber dans la nostalgie attendue.", "Creating warmth without relying on expected nostalgia."],
+    context: ["Luma Coffee est un coffee shop fictif moderne centré sur le café responsable, les pâtisseries et le brunch. L’univers associe la clarté scandinave à des matières naturelles. Le parcours digital permet de consulter le menu, repérer le café et préparer une commande mobile sans perdre la sensation artisanale.", "Luma Coffee is a modern fictional coffee shop focused on responsible coffee, pastries and brunch. Its world pairs Scandinavian clarity with natural materials. The digital journey covers menus, location and mobile ordering without losing its crafted feel."],
+    system: ["Le O est un soleil, une tasse vue du dessus et une horloge sans aiguilles. Une typographie généreuse dialogue avec des détails de menu très fonctionnels.", "The O is a sun, a cup seen from above and a clock without hands. Generous typography sits alongside highly functional menu details."],
+    quote: ["Prendre un café. Prendre son temps.", "Have a coffee. Take your time."], detail: ["Sur les gobelets, le niveau de boisson révèle progressivement les rayons imprimés à l’intérieur: un petit lever de soleil au fil de la dégustation.", "On the cups, the drink level gradually reveals rays printed inside: a small sunrise unfolding with every sip."],
+    colors: ["#ead9c4","#b66f49","#f6f1e8","#173f39"], words: ["LUMA", "COFFEE / BRUNCH / LIGHT"], next: "pixel-papier",
+    refs: ["UnPVbGW1B4fDNTMCSpG4sNRlVc3X3EbX5kVFNctPMQX_j6vlXEeHj_AFDTeQ3MCtnXws3_S8s27pkMFvE1wBXuu9RLge1smtmOhBXio77ACTZ5Ek9Q0DisaSCLzE7TO0qkgz0pylzWPrmK90ElP4Y723oZWM5PaKCWDFjxuqIOTYu7Eu8tVa15CexgcLzDNV","7i3xg_VrWymUgZllhWmkrXxTYlYN0yPFiEkhAYTjxSKrq0fRMrunwVZDFDVN21cfDZO3eP6fuvFeTCeGltghcZwkXB6MHuWyrsL2pJyZ4izYgz4S40Ol7F-hQ_W4WZ3ry3d3K0qYskogS-0BtrmQDuC19DBudwifCDBdK7mi9A2rLefJQ01es1IGsa1RuM8I","qIo0rFtUk6VeNu49gtT-K48_gp2CFtNxYwgYqyKpBDpQ6PDCZGwCK-avSd2q0m4AJlNJWdbb4obU244LYu3x2cSUbZYs2ks6t4j5-R3s0blmX8uF5IssAR6n0pjqKFhv-WkvmIcIRqQlciHdfmTwbTkwCLLNhItlj7_N8m-X2RS0fEZ48BN3PlN_I--ud","dQtnRamsxWBd1dCiR4qP8qaBTxibn98n7U9YAKM5QHTNGRPC2Dn6qkuNAeYcUYKE4DAsA3bkzh1nmdI2iARv2Fz4PeR4YgjupNH23OwCPiPoXKSN5a95CuBKIz5sHqpoXFPWpUkgPcQ0uLNG21GCYoJUJXLix_4hNOWpoihTXgqkwwXHvgtLVIKWkQIeeTMe","3sRSY-UPCVvuKf8-WNSgxsQ1Muz9BVxaQp1YIh1Ewqc6Qg4EcczI5J3Yqoa5UC2wvilxDAIj72tivFo1uets5wUkOm5kizbBtOUdcrjwkFhxnFqZOzgLAdlErSdkGKmCfLRN2MqiBHLRBtSxgF8yBYtMscBwqTQwbW0EEkhJHdTJxJ4t_92yNjC8R-_opO31","RsbWTSpus8juu6NVI-Q8NQ6q0E2qL5t60K_KZpbhhzQneNHB80-2md6sdp-85ea8pLnCL7vpyKxcjcCwkMv8bVC3I26CsPqRcK6MUy8DDz-ruoYNVPncUzPZ1CyJ2XDza2NlmGeCZbsL4v9jw0j3C3iPr3ZbJu_sshXskMAXH5U4y25YhtqEvWc52iLk438H","gOP5ogWQiqwqJTzl9rk6exfOpMULfk6VLCQqAKeJrQCJoUWZcJB8BUjLsjfJFQErVnZwSL-5qbGv91V3jgNxgAqAjMs07JNa_mS5ccZmT_QFXDcoBj029k6x2M8wD8UVHzmx9nA0uppbDybiD8jIPBAqRcbi9YiREcZCVUaC-AJ7Qp6xuSnAPAd3uR3uDitf"]
+  },
+  "pixel-papier": {
+    index: "04 / 05", title: "PRINTNOVA", logo: "printnova", type: ["Retail + centre d’impression", "Retail + print centre"],
+    lead: ["Un service d’impression qui rend les choix techniques simples, visibles et presque ludiques.", "A print service that makes technical choices simple, visible and almost playful."],
+    role: ["Stratégie, identité, expérience retail", "Strategy, identity, retail experience"], scope: ["Marque, signalétique, interface de commande", "Brand, wayfinding, ordering interface"],
+    challenge: ["Rendre l’impression professionnelle moins intimidante.", "Making professional printing less intimidating."],
+    context: ["PrintNova est un centre d’impression moderne inspiré par l’étendue des services de Bureau en Gros Canada. De la carte de visite à l’enseigne, la plateforme simplifie le devis, l’envoi des fichiers et le suivi. Le parcours privilégie des choix visuels et un vocabulaire clair plutôt que le jargon technique.", "PrintNova is a modern print centre inspired by the breadth of Staples Canada’s services. From business cards to signage, its platform simplifies quotes, file uploads and tracking. The journey favours visual choices and clear language over technical jargon."],
+    system: ["Le signe P+ assemble une feuille pliée et une croix de repérage. Les quatre couleurs de production deviennent un outil d’orientation dans l’espace et dans l’interface.", "The P+ symbol combines a folded sheet and a registration cross. The four production colours become a wayfinding tool across the space and interface."],
+    quote: ["Du fichier à l’objet, sans zone grise.", "From file to object, without the grey area."], detail: ["Chaque comptoir porte une tranche colorée visible de loin. Le même code suit la commande en ligne, le reçu et l’étagère de retrait.", "Every counter has a coloured edge visible from a distance. The same code follows the online order, receipt and pickup shelf."],
+    colors: ["#00a4d6","#e72e87","#f2d52f","#171717"], words: ["NOVA", "PRINT / PACK / DELIVER"], next: "didi-zaza",
+    refs: ["PqmKZYizmcMDgkv-_w3-25Sc1hKJapGYv5_cw4pWReEXhSbyfQE5OSXi5d8pWbiDNHprVPDU88yEoLl5Lid4O52CKCUW_8HbcXhAGs1koxwI3vzimJt0e96DY8wrniUyup215uO7VcQLFYScwoRIM-ViE3cSwAUOz1yy6w2o0sxD7OgoCFpb-R_AgCVcQ_Pu","ITdieRSpCLoNHTj8W8fOpysOiT1LeG5_WgcB9HENts50xQ4vFXDQ1KiWLRDh-aYJyj6LDG-ih0W_RULdwmbdq-pxlO6i-kR0hojxqkBS5QQYkMgdsoqA2OMFPM8dQg_iHxFTryGUMvc8mA9CzoDKVMk1aL63DuoWA1TbmOCvs1Zui0fk_GTCYEtCg-mIPdO6","slBq6YeUZSevpdFJlP35ggTZxmnW0nCe1AQydA08DLdHBeRumJMOJM8rs6bBZQHqcfY9FDgf_wlpHpcLv2LhaKZV2m0hwLmtGD0kdEYbb7ViQ9eP1CTRG8obgvGvJOQTv7VsSz1BjcgGOoBYKCVSvutPeMDquN5mvbWHYPoq7ahMFUYp6Kykr-x-fsQ30S3l","AaqFVETKO4LGGlm34sxv7W3MgyCGWXYOoco0SKiemb57LeujoCCo6DAdNiNYullGGYUOWCrO0T6i1AjrDjwHekkAS19_YYik60S-qL6M_dZca_ZdLqJ6IiUyKn0OyzHFIwCElvSAPrJ1BnY3DiWV-SW1bvfYUv_rhX_WMk_9ujURMCSOhXFqlcGRanTA3tuU","8syaW3MP9U6j_Dyu4YoPiYnBBYwaONwm3GztZVnmkSSy1huhbQ93BHvuWvbOSR7qYbXry4uAhCgLBctuENXSsIS-FAWYlsuoyc3GCpD9LhIBJGzGCnDKuttCiFwlBE1VqjUr_HI6aOHD0vjhMtWnGM2XaO4XacwvCxxeiPEsznVSoFtaUogt2CtYesR8OjZa","8yOAXDh82GWtNc741ejchPJ4GD8tiVzUHsWVSflgOsSvuiV6G3QNxWf0jaNvCnKT2O8OmV3Xdc_C32VW6m2AWXW4Mm3xBgmxV1_q97hGFmIHFR33DAPNw9SUsrtRlnJpQecVtrxfEjrvrbNHx4VFAO9OVboOao73BgPy4IN6GOremi1aPhLTmTRVZic81SDo","qpZgfHS-jtWcKcdw6Qas74PcJFNxIICv0wMCScSk4pC-Blbm1NrmcPZuu76tfqCvj7f5uZ3_S7Y6KHwFRJ0zfACbYTsSIb8owII6tV1nvrNXeHX4SHE_flRQwBkBl3BVfGxHf9HnEg-odRBRofnx7woiZO3QyB7HGYyupWP_fRbikPzvcLCjbFdSSRvcDBOi"]
+  },
+  "didi-zaza": {
+    index: "05 / 05", title: "DIDI & ZAZA", logo: "didi-zaza", type: ["Licence jeunesse + illustration", "Youth franchise + illustration"],
+    lead: ["Deux tempéraments, un même terrain de jeu et une identité qui ne leur demande jamais de rester sages.", "Two temperaments, one playground and an identity that never asks them to behave."],
+    role: ["Concept, identité, illustration", "Concept, identity, illustration"], scope: ["Logo, personnages, collection textile", "Logo, characters, apparel collection"],
+    challenge: ["Faire vivre un duo sans lisser leurs différences.", "Building a duo without smoothing out their differences."],
+    context: ["Didi planifie, Zaza improvise. Ce projet fictif imagine une petite marque jeunesse où les désaccords deviennent des histoires, des jeux et des motifs. L’univers parle aux enfants sans adopter une voix infantilisante; il célèbre plutôt les façons différentes d’observer et de résoudre un problème.", "Didi plans, Zaza improvises. This fictional youth label turns disagreements into stories, games and patterns. The world speaks to children without adopting a childish voice; instead, it celebrates different ways of observing and solving a problem."],
+    system: ["Didi vit dans les cercles et les lignes régulières; Zaza préfère les angles et les gestes rapides. L’esperluette, toujours jaune, est le point où leurs mondes se mélangent.", "Didi lives in circles and orderly lines; Zaza prefers angles and quick gestures. The ampersand, always yellow, marks the point where their worlds overlap."],
+    quote: ["Pas pareils. Parfaits ensemble.", "Not alike. Great together."], detail: ["Les étiquettes de vêtements se détachent en deux autocollants. Un enfant peut choisir son humeur du jour ou partager l’autre moitié.", "Garment tags split into two stickers. A child can choose their mood for the day or share the other half."],
+    colors: ["#f1acd1","#ff5b38","#304cdb","#f4d53f"], words: ["D&Z", "CURIOUS / FUN / TOGETHER"], next: "pop-club",
+    refs: ["-LhvzZuJTo2oYSHfTVf-o28bBgfGdVI72kNgQeRvtoubboPL2nEW5T-lRZRVYlmFfTrdcOroec1Z-TTI77N8D7RBaUtRbbyqUS0F3L6m9OCzShYYDu3zijwzwdRCG_Pk1yCR1qVt-rEU9rfTQwjCNEJa_CUer41hzA4k7DCCK9ZoidLKHEVmFgZgUf4RkXdT","YT3PM6BgQXQ4cZpJSxPAZt855bWVEj53YD1ffIdY6b6b6Ymvw6BDb97k671yc9WiSrHcu3KQLwiw1Vd2lRBnToQd-p6NNj54m_71JF51jNMGSUEqdIHTmDkkWaH3tVS92UdyphQcITx_q5aFOp68jvTCxIMiQ3RT_khb9FbZuZ8q3J5n82msAytcXT-uXvx8","nmzJzlQhkyT4kOmdkw7TmLwbJFEwtyy-28iGY0u89b48ZzuCmtetdg6GVeTsilTb3BbmpjNhSrGPK0yZTt4oPrwYKzUpNwk48ZY7Q7b9G6UAFlk06w7TieAfYDDfI8id5XteBVZA9bT2qj5km8t98z47Ceo1yY1DqFL1Q0ozMC8SQ0r9teMRVkaeh2gEXmf4","AxLNyYufMC6tXVb8wYweofSj0yowXIU4pvBKMSRxrZOE07AYauu-PO9miAstNVglID5HJeIyi5G6AGYjQGX4BkphESKUo5WDC85bkZhuc07M9_tK6MhR-aUVNIbqCjRz92tfhpD8T4B4o4mE7V9wy60oU9OGDpbEYdd0Vuj99PpHdgyqM0lUP8CkpsCNdPbj","Nf7qX9AGRF5LJZZsTurPgAYeqN44X6z4LrVVyFeO-8VhZJCLMTdAMEztYWOM_qzH-5Dlf7X5H1Bp4SC_aDwGjODlUnM9M9mBCaRNpPVoD19HfA5sV7o5aigoTuZd6A3NbZsCJxXjF8WdiJ24hjxp3-kYFSgoNNQAgT5x2XbV1SUOMcCXyXfQnE0SIgf1YUiI"]
+  }
+};
+
+const staticText = {
+  fr: { skip:"Aller au contenu",back:"Tous les projets",role:"Rôle",scope:"Livrables",year:"Année",nature:"Nature",concept:"Projet conceptuel",context:"Le contexte",gallery:"Galerie du projet",detail:"Le détail qui compte",next:"Projet suivant" },
+  en: { skip:"Skip to content",back:"All projects",role:"Role",scope:"Deliverables",year:"Year",nature:"Nature",concept:"Concept project",context:"Context",gallery:"Project gallery",detail:"The detail that matters",next:"Next project" }
+};
+
+const requested = new URLSearchParams(location.search).get("id");
+const id = projects[requested] ? requested : "pop-club";
+const project = projects[id];
+
+function setLanguage(lang) {
+  const pick = (value) => Array.isArray(value) ? value[lang === "fr" ? 0 : 1] : value;
+  document.documentElement.lang = lang;
+  document.querySelectorAll("[data-static-i18n]").forEach(el => el.textContent = staticText[lang][el.dataset.staticI18n]);
+  document.querySelectorAll("[data-lang]").forEach(button => {
+    const active = button.dataset.lang === lang;
+    button.classList.toggle("active", active); button.setAttribute("aria-pressed", String(active));
+  });
+  document.querySelector("#caseType").textContent = pick(project.type);
+  document.querySelector("#caseLead").textContent = pick(project.lead);
+  document.querySelector("#caseRole").textContent = pick(project.role);
+  document.querySelector("#caseScope").textContent = pick(project.scope);
+  document.querySelector("#caseChallenge").textContent = pick(project.challenge);
+  document.querySelector("#caseContext").textContent = pick(project.context);
+  document.querySelector("#caseQuote").textContent = `“${pick(project.quote)}”`;
+  document.querySelector("#caseDetail").textContent = pick(project.detail);
+  document.title = `${project.title} — Maria Ichtar`;
+  localStorage.setItem("maria-language", lang);
+}
+
+document.querySelector("#caseIndex").textContent = project.index;
+document.querySelector("#caseTitle").textContent = project.title;
+document.querySelector("#providedGrid").innerHTML = project.refs.map((_, index) => `<figure class="provided-image"><img src="media/${id}/${String(index + 1).padStart(2, "0")}.jpg" alt="${project.title} — visuel ${index + 1}" ${index ? 'loading="lazy"' : ''}><figcaption>${String(index + 1).padStart(2, "0")} / ${String(project.refs.length).padStart(2, "0")}</figcaption></figure>`).join("");
+document.querySelector("#nextLink").href = `project.html?id=${project.next}`;
+document.querySelector("#nextTitle").textContent = projects[project.next].title;
+document.body.style.setProperty("--case-bg", project.colors[0]);
+document.body.style.setProperty("--case-accent", project.colors[1]);
+document.body.style.setProperty("--case-fg", "#11100e");
+document.querySelectorAll("[data-lang]").forEach(button => button.addEventListener("click", () => setLanguage(button.dataset.lang)));
+setLanguage(localStorage.getItem("maria-language") || "fr");

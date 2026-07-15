@@ -1,0 +1,43 @@
+{
+  "pop-club": [
+    "media/pop-club/01.jpg",
+    "media/pop-club/02.jpg",
+    "media/pop-club/03.jpg",
+    "media/pop-club/04.jpg",
+    "media/pop-club/05.jpg",
+    "media/pop-club/06.jpg",
+    "media/pop-club/07.jpg"
+  ],
+  "motif": [
+    "media/motif/01.jpg",
+    "media/motif/02.jpg",
+    "media/motif/03.jpg",
+    "media/motif/04.jpg",
+    "media/motif/05.jpg"
+  ],
+  "cafe-ora": [
+    "media/cafe-ora/01.jpg",
+    "media/cafe-ora/02.jpg",
+    "media/cafe-ora/03.jpg",
+    "media/cafe-ora/04.jpg",
+    "media/cafe-ora/05.jpg",
+    "media/cafe-ora/06.jpg",
+    "media/cafe-ora/07.jpg"
+  ],
+  "pixel-papier": [
+    "media/pixel-papier/01.jpg",
+    "media/pixel-papier/02.jpg",
+    "media/pixel-papier/03.jpg",
+    "media/pixel-papier/04.jpg",
+    "media/pixel-papier/05.jpg",
+    "media/pixel-papier/06.jpg",
+    "media/pixel-papier/07.jpg"
+  ],
+  "didi-zaza": [
+    "media/didi-zaza/01.jpg",
+    "media/didi-zaza/02.jpg",
+    "media/didi-zaza/03.jpg",
+    "media/didi-zaza/04.jpg",
+    "media/didi-zaza/05.jpg"
+  ]
+}

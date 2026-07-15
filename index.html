@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio de Maria Ichtar, designer graphique et développeuse frontend spécialisée en identité visuelle, branding et expériences web."
+    />
+    <meta name="theme-color" content="#ebe8df" />
+    <title>Maria Ichtar — Design graphique & Frontend</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600&family=Syne:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skip">Aller au contenu</a>
+
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Maria Ichtar, accueil">
+        M<span aria-hidden="true">✦</span>I
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span data-i18n="menu">Menu</span>
+        <span class="menu-icon" aria-hidden="true"></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Navigation principale">
+        <a href="#work" data-i18n="navWork">Projets</a>
+        <a href="#about" data-i18n="navAbout">À propos</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+      </nav>
+      <div class="language-switcher" aria-label="Langue">
+        <button class="language-button active" type="button" data-lang="fr" aria-pressed="true">FR</button>
+        <span>/</span>
+        <button class="language-button" type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-kicker reveal">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span data-i18n="available">Disponible pour de nouvelles opportunités</span>
+        </div>
+        <h1 id="hero-title" class="hero-title reveal">
+          <span data-i18n="heroA">Je donne une</span><br />
+          <span class="outline" data-i18n="heroB">voix visuelle</span>
+          <span data-i18n="heroC">aux idées.</span>
+        </h1>
+        <div class="hero-bottom reveal">
+          <p data-i18n="intro">
+            Designer graphique, créatrice d’identités et développeuse frontend. Je transforme les concepts en marques cohérentes et en expériences numériques vivantes.
+          </p>
+          <a class="round-link" href="#work" aria-label="Voir les projets">
+            <span data-i18n="discover">Découvrir</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16M5 13l7 7 7-7" /></svg>
+          </a>
+        </div>
+        <div class="hero-stamp" aria-hidden="true">
+          <svg viewBox="0 0 160 160">
+            <defs><path id="stamp-path" d="M80,80 m-57,0 a57,57 0 1,1 114,0 a57,57 0 1,1 -114,0" /></defs>
+            <text><textPath href="#stamp-path">GRAPHIC DESIGN · FRONTEND · BRANDING · </textPath></text>
+          </svg>
+          <span>MI</span>
+        </div>
+      </section>
+
+      <div class="ticker" aria-hidden="true">
+        <div class="ticker-track">
+          <span>IDENTITY</span><i>✦</i><span>BRANDING</span><i>✦</i><span>WEB DESIGN</span><i>✦</i><span>COMMUNITY</span><i>✦</i>
+          <span>IDENTITY</span><i>✦</i><span>BRANDING</span><i>✦</i><span>WEB DESIGN</span><i>✦</i><span>COMMUNITY</span><i>✦</i>
+        </div>
+      </div>
+
+      <section class="work section" id="work" aria-labelledby="work-title">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow" data-i18n="selected">Sélection</span>
+            <h2 id="work-title" data-i18n="projects">Projets<br />choisis</h2>
+          </div>
+          <p class="project-count">05 <span data-i18n="caseStudies">études de cas</span></p>
+        </div>
+
+        <div class="filters reveal" role="group" aria-label="Filtrer les projets">
+          <button type="button" class="filter active" data-filter="all" data-i18n="filterAll">Tout</button>
+          <button type="button" class="filter" data-filter="identity" data-i18n="filterIdentity">Identité</button>
+          <button type="button" class="filter" data-filter="digital" data-i18n="filterDigital">Digital</button>
+        </div>
+
+        <div class="project-grid">
+          <article class="project project-large reveal" data-category="identity digital">
+            <a class="project-card-link" href="project.html?id=pop-club" aria-label="Voir l’étude de cas Mochi Monsters">
+            <div class="project-visual provided-cover"><img src="media/pop-club/01.jpg" alt="Mochi Monsters" /></div></a>
+            <div class="project-info">
+              <span class="project-number">01</span>
+              <div>
+                <h3 data-i18n="p1Title">Mochi Monsters</h3>
+                <p data-i18n="p1Desc">Une mascotte pensée comme le cœur d’une franchise: univers de marque, packaging et vitrine e-commerce.</p>
+                <ul><li data-i18n="branding">Branding</li><li>Character design</li><li>Frontend</li></ul>
+                <a class="case-link" href="project.html?id=pop-club"><span data-i18n="viewCase">Voir l’étude de cas</span> ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal" data-category="identity digital">
+            <a class="project-card-link" href="project.html?id=motif" aria-label="Voir l’étude de cas Daily Sparks">
+            <div class="project-visual provided-cover"><img src="media/motif/01.jpg" alt="Daily Sparks" loading="lazy" /></div></a>
+            <div class="project-info">
+              <span class="project-number">02</span>
+              <div>
+                <h3>Daily Sparks</h3>
+                <p data-i18n="p2Desc">Logo et système social pour une page Instagram dédiée aux citations qui donnent envie d’avancer.</p>
+                <ul><li>Logo</li><li>Social design</li><li>Art direction</li></ul>
+                <a class="case-link" href="project.html?id=motif"><span data-i18n="viewCase">Voir l’étude de cas</span> ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal" data-category="identity">
+            <a class="project-card-link" href="project.html?id=cafe-ora" aria-label="Voir l’étude de cas Luma Coffee">
+            <div class="project-visual provided-cover"><img src="media/cafe-ora/01.jpg" alt="Luma Coffee" loading="lazy" /></div></a>
+            <div class="project-info">
+              <span class="project-number">03</span>
+              <div>
+                <h3>Luma Coffee</h3>
+                <p data-i18n="p3Desc">Une identité chaleureuse et solaire pour un café fictif où l’on prend le temps de se retrouver.</p>
+                <ul><li data-i18n="visualIdentity">Identité visuelle</li><li>Packaging</li><li>Print</li></ul>
+                <a class="case-link" href="project.html?id=cafe-ora"><span data-i18n="viewCase">Voir l’étude de cas</span> ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project project-wide reveal" data-category="identity digital">
+            <a class="project-card-link" href="project.html?id=pixel-papier" aria-label="Voir l’étude de cas PrintNova">
+            <div class="project-visual provided-cover"><img src="media/pixel-papier/01.jpg" alt="PrintNova" loading="lazy" /></div></a>
+            <div class="project-info">
+              <span class="project-number">04</span>
+              <div>
+                <h3>PrintNova</h3>
+                <p data-i18n="p4Desc">Une marque accessible et modulaire pour un centre d’impression nouvelle génération, inspiré des services de Bureau en Gros.</p>
+                <ul><li>Brand strategy</li><li>Retail</li><li>Wayfinding</li></ul>
+                <a class="case-link" href="project.html?id=pixel-papier"><span data-i18n="viewCase">Voir l’étude de cas</span> ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal" data-category="identity">
+            <a class="project-card-link" href="project.html?id=didi-zaza" aria-label="Voir l’étude de cas DIDI &amp; ZAZA">
+            <div class="project-visual provided-cover"><img src="media/didi-zaza/01.jpg" alt="DIDI &amp; ZAZA" loading="lazy" /></div></a>
+            <div class="project-info">
+              <span class="project-number">05</span>
+              <div>
+                <h3>DIDI &amp; ZAZA</h3>
+                <p data-i18n="p5Desc">Un duo de caractères opposés réuni dans une identité expressive, colorée et spontanée.</p>
+                <ul><li>Logo</li><li>Illustration</li><li data-i18n="brandWorld">Univers de marque</li></ul>
+                <a class="case-link" href="project.html?id=didi-zaza"><span data-i18n="viewCase">Voir l’étude de cas</span> ↗</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="about section" id="about" aria-labelledby="about-title">
+        <div class="about-number" aria-hidden="true">(06)</div>
+        <div class="about-main reveal">
+          <span class="eyebrow" data-i18n="aboutEyebrow">À propos</span>
+          <h2 id="about-title" data-i18n="aboutTitle">Entre intuition visuelle<br />et logique numérique.</h2>
+          <div class="about-copy">
+            <p data-i18n="aboutP1">Je suis Maria, designer graphique polyvalente avec un regard particulier pour les identités qui ont du caractère. Logo, système de marque, contenu social: je cherche toujours l’idée simple qui rend une marque mémorable.</p>
+            <p data-i18n="aboutP2">Ma pratique du frontend me permet d’aller plus loin: je ne pense pas seulement à l’apparence d’une interface, mais aussi à la façon dont elle bouge, répond et prend vie dans le navigateur.</p>
+          </div>
+        </div>
+        <div class="services reveal">
+          <div><span>01</span><h3 data-i18n="service1">Identité & branding</h3><p data-i18n="service1p">Logos, chartes graphiques, systèmes visuels</p></div>
+          <div><span>02</span><h3 data-i18n="service2">Design digital</h3><p data-i18n="service2p">Sites web, interfaces, contenu social</p></div>
+          <div><span>03</span><h3 data-i18n="service3">Frontend créatif</h3><p data-i18n="service3p">HTML, CSS, JavaScript, expériences responsive</p></div>
+          <div><span>04</span><h3 data-i18n="service4">Community management</h3><p data-i18n="service4p">Stratégie de contenu, création, cohérence de marque</p></div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <span class="eyebrow light" data-i18n="contactEyebrow">Un projet, une équipe, une idée?</span>
+        <h2 id="contact-title"><span data-i18n="contactTitle">Créons quelque chose</span><br /><em data-i18n="contactAccent">qui compte.</em></h2>
+        <a class="email-link" href="mailto:razi.contact3@gmail.com">razi.contact3@gmail.com <span>↗</span></a>
+        <div class="contact-footer">
+          <span>MARIA ICHTAR © <span id="year"></span></span>
+          <a href="#top" data-i18n="backTop">Retour en haut ↑</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

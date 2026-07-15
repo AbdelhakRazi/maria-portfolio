@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ebe8df" />
+    <meta name="description" content="Étude de cas de design par Maria Ichtar." />
+    <title>Projet — Maria Ichtar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="project.css" />
+    <script src="project.js" defer></script>
+  </head>
+  <body class="case-page">
+    <a class="skip-link" href="#case-main" data-static-i18n="skip">Aller au contenu</a>
+    <header class="case-header">
+      <a class="wordmark" href="index.html" aria-label="Maria Ichtar, accueil">M<span aria-hidden="true">✦</span>I</a>
+      <a class="back-link" href="index.html#work"><span aria-hidden="true">←</span> <span data-static-i18n="back">Tous les projets</span></a>
+      <div class="language-switcher" aria-label="Langue">
+        <button class="language-button active" type="button" data-lang="fr" aria-pressed="true">FR</button><span>/</span>
+        <button class="language-button" type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </header>
+
+    <main id="case-main">
+      <section class="case-hero" id="caseHero">
+        <div class="case-index" id="caseIndex">01 / 05</div>
+        <div class="case-heading">
+          <span class="eyebrow" id="caseType"></span>
+          <h1 id="caseTitle"></h1>
+          <p id="caseLead"></p>
+        </div>
+        <dl class="case-meta">
+          <div><dt data-static-i18n="role">Rôle</dt><dd id="caseRole"></dd></div>
+          <div><dt data-static-i18n="scope">Livrables</dt><dd id="caseScope"></dd></div>
+          <div><dt data-static-i18n="year">Année</dt><dd>2026</dd></div>
+          <div><dt data-static-i18n="nature">Nature</dt><dd data-static-i18n="concept">Projet conceptuel</dd></div>
+        </dl>
+      </section>
+
+      <section class="case-story case-pad">
+        <div class="story-label"><span>01</span><span data-static-i18n="context">Le contexte</span></div>
+        <div class="story-copy">
+          <h2 id="caseChallenge"></h2>
+          <p id="caseContext"></p>
+        </div>
+      </section>
+
+      <section class="provided-gallery case-pad">
+        <div class="story-label"><span>02</span><span data-static-i18n="gallery">Galerie du projet</span></div>
+        <div class="provided-grid" id="providedGrid"></div>
+      </section>
+
+      <section class="case-notes case-pad">
+        <blockquote id="caseQuote"></blockquote>
+        <div>
+          <span class="eyebrow" data-static-i18n="detail">Le détail qui compte</span>
+          <p id="caseDetail"></p>
+        </div>
+      </section>
+
+      <nav class="next-project" aria-label="Projet suivant">
+        <span data-static-i18n="next">Projet suivant</span>
+        <a id="nextLink" href="#"><strong id="nextTitle"></strong><i>↗</i></a>
+      </nav>
+    </main>
+  </body>
+</html>
