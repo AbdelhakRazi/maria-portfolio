@@ -1,11 +1,12 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
 
 const markdown = await readFile("projets/projets.md", "utf8");
-const sections = markdown.split(/^# Projet \d[^\n]*$/gm).slice(1);
-const slugs = ["pop-club", "motif", "cafe-ora", "pixel-papier", "didi-zaza"];
+const sections = markdown.split(/^# Projet \d[^\n]*$/gm).slice(1, 5);
+const slugs = ["pop-club", "motif", "cafe-ora", "pixel-papier"];
 const urlPattern = /!\[Image\]\((https:\/\/images\.openai\.com\/[^)]+)\)/g;
 const manifest = {};
 
+await rm("media", { recursive: true, force: true });
 await mkdir("media", { recursive: true });
 
 for (const [sectionIndex, section] of sections.entries()) {

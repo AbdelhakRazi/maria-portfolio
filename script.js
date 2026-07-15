@@ -9,12 +9,11 @@ const translations = {
     p2Desc: "Une identité Instagram premium pour des citations, du mindset et des contenus destinés aux jeunes entrepreneurs.",
     p3Desc: "Une identité scandinave et naturelle pour un coffee shop fictif centré sur le café responsable et le brunch.",
     p4Desc: "Une marque et un parcours de commande pour un centre d’impression moderne inspiré de Bureau en Gros Canada.",
-    p5Desc: "Un duo de caractères opposés réuni dans une identité expressive, colorée et spontanée.",
     aboutEyebrow: "À propos", aboutTitle: "Entre intuition visuelle<br />et logique numérique.",
     aboutP1: "Je suis Maria, designer graphique polyvalente avec un regard particulier pour les identités qui ont du caractère. Logo, système de marque, contenu social: je cherche toujours l’idée simple qui rend une marque mémorable.",
     aboutP2: "Ma pratique du frontend me permet d’aller plus loin: je ne pense pas seulement à l’apparence d’une interface, mais aussi à la façon dont elle bouge, répond et prend vie dans le navigateur.",
     service1: "Identité & branding", service1p: "Logos, chartes graphiques, systèmes visuels", service2: "Design digital", service2p: "Sites web, interfaces, contenu social",
-    service3: "Frontend créatif", service3p: "HTML, CSS, JavaScript, expériences responsive", service4: "Community management", service4p: "Stratégie de contenu, création, cohérence de marque",
+    service3: "Frontend créatif", service3p: "React.js, Next.js, JavaScript, interfaces responsive", service4: "Community management", service4p: "Stratégie de contenu, création, cohérence de marque",
     viewCase: "Voir l’étude de cas", contactEyebrow: "Un projet, une équipe, une idée?", contactTitle: "Créons quelque chose", contactAccent: "qui compte.", backTop: "Retour en haut ↑"
   },
   en: {
@@ -27,12 +26,11 @@ const translations = {
     p2Desc: "A premium Instagram identity for quotes, mindset and content aimed at young entrepreneurs.",
     p3Desc: "A Scandinavian, natural identity for a fictional coffee shop focused on responsible coffee and brunch.",
     p4Desc: "A brand and ordering journey for a modern print centre inspired by Staples Canada.",
-    p5Desc: "Two opposite personalities brought together in an expressive, colorful and spontaneous identity.",
     aboutEyebrow: "About", aboutTitle: "Where visual instinct<br />meets digital logic.",
     aboutP1: "I’m Maria, a multidisciplinary graphic designer with a keen eye for identities that have character. From logos and brand systems to social content, I look for the simple idea that makes a brand memorable.",
     aboutP2: "My frontend practice lets me go further: I think not only about how an interface looks, but also how it moves, responds and comes alive in the browser.",
     service1: "Identity & branding", service1p: "Logos, brand guidelines, visual systems", service2: "Digital design", service2p: "Websites, interfaces, social content",
-    service3: "Creative frontend", service3p: "HTML, CSS, JavaScript, responsive experiences", service4: "Community management", service4p: "Content strategy, creation, brand consistency",
+    service3: "Creative frontend", service3p: "React.js, Next.js, JavaScript, responsive interfaces", service4: "Community management", service4p: "Content strategy, creation, brand consistency",
     viewCase: "View case study", contactEyebrow: "A project, a team, an idea?", contactTitle: "Let’s make something", contactAccent: "that matters.", backTop: "Back to top ↑"
   }
 };
